@@ -1,0 +1,42 @@
+# Sensitive credentials - NEVER commit these
+.env
+backend/.env
+
+# Virtual environment
+.venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Agent config (may contain API keys)
+.claude/
+.agents/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flutter build artifacts
+poco_app/build/
+poco_app/.dart_tool/
+poco_app/.flutter-plugins
+poco_app/.flutter-plugins-dependencies
+poco_app/.metadata
+poco_app/android/local.properties
+poco_app/pubspec.lock
+
+# Local plans (generated)
+docs/superpowers/plans/
